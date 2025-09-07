@@ -1,6 +1,4 @@
 
-
-
 let button=document.getElementById('mybutton')
 let frame1=document.getElementById('frame1')
 let vehicles=[
@@ -83,9 +81,6 @@ let images2=[
     'image14',
     'image15',
      
-  
-
-
 ]
 selectRandomIndex2()
 function selectRandomIndex2(){
@@ -121,8 +116,7 @@ let images3=[
     'image12',
     'image13',
     'image14',
-    'image15',
-    
+    'image15',  
 
 ]
 selectRandomIndex3()

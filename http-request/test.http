@@ -1,0 +1,37 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "testuser2",
+  "email": "test2@example.com",
+  "password": "password123"
+}
+
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser2",
+  "password": "password123"
+}
+
+GET http://localhost:5000/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMiIsInN1YiI6IjY4YjM1MGY0MGI0NmNlODYwMzI1ZDA3OCIsImlhdCI6MTc1NjU5NDc5NCwiZXhwIjoxNzU2NTk1Njk0fQ.TZrsLNrDaPL6WIa9y9sFfvRoVyEOH3ydLVF35iQapLk
+
+
+GET http://localhost:5000/users/allUsers
+
+# {
+#   "username": "testuser2",
+#   "email": "test2@example.com",
+#   "refreshToken": null,
+#   "_id": "68b350f40b46ce860325d078",
+#   "createdAt": "2025-08-30T19:28:52.977Z",
+#   "updatedAt": "2025-08-30T19:28:52.977Z",
+#   "__v": 0
+# }
+
+
+# {
+#   "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMiIsInN1YiI6IjY4YjM1MGY0MGI0NmNlODYwMzI1ZDA3OCIsImlhdCI6MTc1NjU4MjE3OCwiZXhwIjoxNzU2NTgzMDc4fQ.TqKLVUuSAexfurCMt4-B0av6VMYVCVyuvN8nSyPLtpo"
+# }

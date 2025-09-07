@@ -1,0 +1,45 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav{
+    
+    overflow: hidden;
+    justify-content: center;
+    color: #6cc091;
+
+}
+.TituloPrincipal{
+    text-align: center;
+ 
+    
+}
+.logo{
+    text-transform: uppercase;
+    color: #6cc091;
+    
+    text-align: center;
+    
+
+}
+.logo p{
+    font-size: 10px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 10%;
+}
+.menu a{
+    text-decoration: none;
+    color: #6cc091;
+    padding: 10px 20px;
+    border: 2px solid #6cc091;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    font-weight: bold;}
+.menu a:hover {
+    background: #6cc091;
+    color: #fff;
+}
+
+ 
